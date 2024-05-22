@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 
 const app = express();
 // mailChimp.setConfig({
-//   apiKey: "d6e29f957732c5614d20aec72418b017-us21",
+//   apiKey: "asdasdasdasadadadsasd",
 //   server: "us21",
 // });
 
@@ -69,7 +69,3 @@ app.post("/failure", function (req, res) {
 app.listen(3000, function () {
   console.log("The server is started on port 3000");
 });
-
-//^API KEY: d6e29f957732c5614d20aec72418b017-us21
-//~SERVER PREFIX: us21
-//&LIST ID: 99eeb07774
