@@ -1,0 +1,15 @@
+{
+  "name": "8--express-server",
+  "version": "1.0.0",
+  "description": "The first express server that I created.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "InFlames_Fire",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

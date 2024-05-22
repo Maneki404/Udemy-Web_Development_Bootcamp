@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem; /*100% => 16px = 1em so for 90px we need 90*100/16 = 562.5% or 5.625em*/
+  font-family: "Sacramento", cursive;
+  color: #ff9a9a;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #ff9a9a;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff5252;
+}
+a {
+  color: #ff5252;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #ffe8e8;
+  padding-top: 150px;
+  position: relative;
+}
+.bottom-container {
+  background-color: #ff9a9a;
+  padding: 50px;
+}
+
+.text {
+  padding-bottom: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  height: 150px;
+  right: 350px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  height: 150px;
+  left: 300px;
+  top: 220px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.fullstack-skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.unity-skill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-img {
+  width: 20%;
+  clip-path: circle();
+}
+
+.profile {
+  margin: 100px auto;
+}
+
+.divider {
+  border-style: dotted;
+  border-top: 1;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-width: 5px;
+  width: 50px;
+  color: silver;
+}
+
+.skills {
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin: 100px auto;
+}
+
+.btn {
+  background: #ffcccc;
+  background-image: -webkit-linear-gradient(top, #ffcccc, #ff5454);
+  background-image: -moz-linear-gradient(top, #ffcccc, #ff5454);
+  background-image: -ms-linear-gradient(top, #ffcccc, #ff5454);
+  background-image: -o-linear-gradient(top, #ffcccc, #ff5454);
+  background-image: linear-gradient(to bottom, #ffcccc, #ff5454);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff5252;
+  text-decoration: none;
+}
+
+.contact-margin {
+  margin: 50px auto 70px auto;
+}
+
+.footer-link {
+  margin: 25px;
+}
+
+.copyright {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 0;
+}

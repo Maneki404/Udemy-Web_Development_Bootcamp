@@ -1,0 +1,15 @@
+{
+  "name": "7--nodejs",
+  "version": "1.0.0",
+  "description": "This is an intro to node project.",
+  "main": "4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "InFlames_Fire",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.1.0"
+  }
+}
